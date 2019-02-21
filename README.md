@@ -60,32 +60,10 @@ Also Swipe needs just a few styles added to your stylesheet:
 
 ## Config Options
 
-Swipe can take an optional second parameter– an object of key/value settings:
+Swiper can take an optional second parameter– an object of key/value settings:
 
-- **startSlide** Integer _(default:0)_ - index position Swipe should start at
-
-- **speed** Integer _(default:300)_ - speed of prev and next transitions in milliseconds.
-
-- **widthOfSiblingSlidePreview** Integer - Width of next and previous slide preview in pixels
-
-- **auto** Integer - begin with auto slideshow (time in milliseconds between slides)
-
-- **continuous** Boolean _(default:true)_ - create an infinite feel with no endpoints
-
-- **disableScroll** Boolean _(default:false)_ - stop any touches on this container from scrolling the page
-
-- **stopPropagation** Boolean _(default:false)_ - stop event propagation
-
-- **swiping** Function - invoked while swiping with the percentage (0-1) of the full width that has been swiped.
-
-- **callback** Function - runs at slide change.
-
-- **transitionEnd** Function - runs at the end slide transition.
-
-
-
-| parameter        | description    |  type  |   default  |
-| :--------   | -----   | :---- : |   :---- :  |
+| parameter | description    |  type  |   default  |
+| --------   | -----   | ----  |   ----   |
 | width     | customize the width of a single swipe    |   int    |   -   |
 | offset     | Swipe's distance to the left of the offset    |   int    |   -   |
 | startSlide     | index position Swipe should start at    |   int    |   0   |
@@ -131,7 +109,7 @@ Swipe exposes a few functions that can be useful for script control of your slid
 
 ## Browser Support
 
-Swipe is now compatible with all browsers, including IE7+. Swipe works best on devices that support CSS transforms and touch, but can be used without these as well. A few helper methods determine touch and CSS transition support and choose the proper animation methods accordingly.
+Swiper is now compatible with all browsers, including IE7+. Swipe works best on devices that support CSS transforms and touch, but can be used without these as well. A few helper methods determine touch and CSS transition support and choose the proper animation methods accordingly.
 
 ## Who's using Swipe
 

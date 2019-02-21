@@ -3,7 +3,7 @@
 [![npm version](http://badge.fury.io/js/light-swiper.svg)](http://badge.fury.io/js/light-swiper)
 [![Download Count](http://img.shields.io/npm/dm/light-swiper.svg?style=flat)](http://www.npmjs.com/package/light-swiper)
 
-> Focus on mobile, lightweight Swiper native plugin (3kb gziped)
+> Focus on mobile, lightweight Swiper native js plugin (3kb gziped)
 
 > Fork of original [Swipe](https://github.com/thebird/Swipe), implement custom swipe width, offset, infinite carousel, event copy and other functions for a smoother experience
 

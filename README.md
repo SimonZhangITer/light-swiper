@@ -113,12 +113,12 @@ Swiper is now compatible with all browsers, including IE7+. Swipe works best on 
 
 ## Who's using Swipe
 
-<img src='https://raw.githubusercontent.com/voronianski/light-swiper/master/assets/cnn.png' width='80'>
-<img src='https://raw.githubusercontent.com/voronianski/light-swiper/master/assets/airbnb.png' width='170'>
-<img src='https://raw.githubusercontent.com/voronianski/light-swiper/master/assets/nhl.png' height='80'>
-<img src='https://raw.githubusercontent.com/voronianski/light-swiper/master/assets/htc.png' height='80'>
-<img src='https://raw.githubusercontent.com/voronianski/light-swiper/master/assets/thinkgeek.png' height='80'>
-<img src='https://raw.githubusercontent.com/voronianski/light-swiper/master/assets/snapguide.png' height='80'>
+<img src='https://raw.githubusercontent.com/voronianski/swipe-js-iso/master/assets/cnn.png' width='80'>
+<img src='https://raw.githubusercontent.com/voronianski/swipe-js-iso/master/assets/airbnb.png' width='170'>
+<img src='https://raw.githubusercontent.com/voronianski/swipe-js-iso/master/assets/nhl.png' height='80'>
+<img src='https://raw.githubusercontent.com/voronianski/swipe-js-iso/master/assets/htc.png' height='80'>
+<img src='https://raw.githubusercontent.com/voronianski/swipe-js-iso/master/assets/thinkgeek.png' height='80'>
+<img src='https://raw.githubusercontent.com/voronianski/swipe-js-iso/master/assets/snapguide.png' height='80'>
 
 ---
 

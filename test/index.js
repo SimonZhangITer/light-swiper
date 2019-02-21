@@ -27,3 +27,11 @@ var mySwiper1 = new lightSwiper(document.querySelector('#siwper-1'))
 var mySwiper2 = new lightSwiper(document.querySelector('#siwper-2'), options2)
 var mySwiper3 = new lightSwiper(document.querySelector('#siwper-3'), options3)
 var mySwiper4 = new lightSwiper(document.querySelector('#siwper-4'), options4)
+
+function next() {
+  mySwiper1.next()
+}
+
+function prev() {
+  mySwiper1.prev()
+}

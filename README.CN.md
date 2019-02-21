@@ -33,7 +33,7 @@ light-swiper只需要遵循简单的布局模式，如：
 ```javascript
 import Swiper from 'light-swiper'
 
-const Swiper = new Swiper(document.querySelector('.light-swiper'));
+const mySwiper = new Swiper(document.querySelector('.light-swiper'));
 ```
 
 除此之外，还需要一些简单的CSS样式：

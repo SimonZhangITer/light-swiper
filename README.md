@@ -9,6 +9,11 @@
 
 [中文文档](https://github.com/SimonZhangITer/light-swiper/blob/master/README.CN.md)
 
+# Preview
+<img src="https://p0.meituan.net/dpgroup/21b2252b405605a068f19c97b9d7c96b16823.png" width=120>
+
+[Preview](https://simonzhangiter.github.io/light-swiper/)
+
 # Install
 
 ```bash

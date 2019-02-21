@@ -4,6 +4,9 @@
 > 重构于Swipe，实现自定义swipe宽度、偏移量、无限轮播、事件复制等功能，体验更加流畅
 
 # 预览
+<img src="https://p0.meituan.net/dpgroup/21b2252b405605a068f19c97b9d7c96b16823.png" width=120>
+
+[预览](https://simonzhangiter.github.io/light-swiper/)
 
 # 安装
 

@@ -7,6 +7,8 @@
 
 > Fork of original [Swipe](https://github.com/thebird/Swipe), implement custom swipe width, offset, infinite carousel, event copy and other functions for a smoother experience
 
+[中文文档](https://github.com/SimonZhangITer/light-swiper/blob/master/README.CN.md)
+
 # Install
 
 ```bash
@@ -35,7 +37,7 @@ Above is the initial required structure – a series of elements wrapped in two 
 ```js
 import Swiper from 'light-swiper'
 
-const Swiper = new Swiper(document.querySelector('.light-swiper'));
+const mySwiper = new Swiper(document.querySelector('.light-swiper'));
 ```
 
 Also Swipe needs just a few styles added to your stylesheet:

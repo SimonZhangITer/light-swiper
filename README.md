@@ -5,7 +5,7 @@
 
 > Focus on mobile, lightweight Swiper native js plugin (3kb gziped)
 
-> Fork of original [Swipe](https://github.com/thebird/Swipe), implement custom swipe width, offset, infinite carousel, event copy and other functions for a smoother experience
+> Fork of original [Swipe](https://github.com/thebird/Swipe), implement custom swipe width, offset, infinite carousel and other functions for a smoother experience
 
 [中文文档](https://github.com/SimonZhangITer/light-swiper/blob/master/README.CN.md)
 
@@ -26,7 +26,7 @@ or script tag
 ```javascript
 <script src="./swiper.min.js"></script>
 ```
-and now you can use `lightSwiper` function
+and now you can use the global variable `lightSwiper`
 
 ## Usage
 

@@ -16,6 +16,14 @@ npm install light-swiper
 yarn add light-swiper
 ```
 
+或者通过`script`标签的形式引入
+
+```javascript
+<script src="./swiper.min.js"></script>
+```
+现在，你可以使用全局变量`lightSwiper`
+
+
 # 用法
 
 light-swiper只需要遵循简单的布局模式，如：

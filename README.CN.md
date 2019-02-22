@@ -64,7 +64,7 @@ const mySwiper = new Swiper(document.querySelector('.light-swiper'));
 滑动可以选择第二个参数: [options]
 
 | 参数        | 说明    |  类型  |   默认值  |
-| :--------   | -----   | :---- : |   :---- :  |
+| --------   | -----   | ----  |   ----   |
 | startSlide     | 默认的索引位置    |   int    |   0   |
 | speed   | 动画执行时间     |   int   |   300    |
 | auto   |  是否自动播放, 传入切换时间      |   int    |   -    |

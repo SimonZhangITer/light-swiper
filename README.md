@@ -21,6 +21,12 @@ npm install light-swiper
 // or
 yarn add light-swiper
 ```
+or script tag
+
+```javascript
+<script src="./swiper.min.js"></script>
+```
+and now you can use `lightSwiper` function
 
 ## Usage
 

@@ -118,7 +118,7 @@ Swipe exposes a few functions that can be useful for script control of your slid
 
 `getNumSlides()` returns the total amount of slides
 
-`kikk()` destroy the current swiper instance
+`kill()` destroy the current swiper instance
 
 ## Browser Support
 

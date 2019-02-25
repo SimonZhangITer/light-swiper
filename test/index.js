@@ -5,7 +5,7 @@ var options2 = {
 var options3 = {
   width: 310,
   offset: 28,
-  continuous: true
+  // continuous: true
 }
 
 var options4 = {
@@ -23,10 +23,10 @@ var options4 = {
   }
 }
 
-var mySwiper1 = new lightSwiper(document.querySelector('#siwper-1'))
-var mySwiper2 = new lightSwiper(document.querySelector('#siwper-2'), options2)
-var mySwiper3 = new lightSwiper(document.querySelector('#siwper-3'), options3)
-var mySwiper4 = new lightSwiper(document.querySelector('#siwper-4'), options4)
+window.mySwiper1 = new lightSwiper(document.querySelector('#siwper-1'))
+window.mySwiper2 = new lightSwiper(document.querySelector('#siwper-2'), options2)
+window.mySwiper3 = new lightSwiper(document.querySelector('#siwper-3'), options3)
+window.mySwiper4 = new lightSwiper(document.querySelector('#siwper-4'), options4)
 
 function next() {
   mySwiper1.next()

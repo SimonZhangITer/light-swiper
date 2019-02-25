@@ -547,12 +547,12 @@
       setup: function() {
         setup();
       },
-      // slide: function(to, speed) {
-      //   // cancel slideshow
-      //   stop();
+      slide: function(to, speed) {
+        // cancel slideshow
+        stop();
 
-      //   slide(to, speed);
-      // },
+        slide(to, speed);
+      },
       prev: function() {
         // cancel slideshow
         stop();

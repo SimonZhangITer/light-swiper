@@ -134,7 +134,7 @@
       if (continuous) {
         translate(circle(index - 2), -width * 2, 0);
       }
-      setTimeout(() => {
+      setTimeout(function() {
         if (continuous) slide(index - 1);
         else if (index) slide(index - 1);
       }, 20);
@@ -146,7 +146,7 @@
         translate(circle(index + 2), width * 2, 0);
       }
 
-      setTimeout(() => {
+      setTimeout(function() {
         if (continuous) slide(index + 1);
         else if (index < slides.length - 1) slide(index + 1);
       }, 20);

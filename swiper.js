@@ -500,7 +500,6 @@
       },
       transitionEnd: function(event) {
         if (parseInt(event.target.getAttribute("data-index"), 10) == index) {
-          console.log(delay);
           if (delay) begin();
 
           options.transitionEnd &&

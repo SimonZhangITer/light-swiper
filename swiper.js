@@ -267,8 +267,8 @@
       interval = setTimeout(next, delay);
     }
 
-    function stop() {
-      delay = 0;
+    function stop(isDestory) {
+      if(isDestory) delay = 0;
       clearTimeout(interval);
     }
 
@@ -500,6 +500,7 @@
       },
       transitionEnd: function(event) {
         if (parseInt(event.target.getAttribute("data-index"), 10) == index) {
+          console.log(delay);
           if (delay) begin();
 
           options.transitionEnd &&
@@ -567,7 +568,7 @@
       },
       stop: function() {
         // cancel slideshow
-        stop();
+        stop(true);
       },
       getPos: function() {
         // return current index position
@@ -579,7 +580,7 @@
       },
       kill: function() {
         // cancel slideshow
-        stop();
+        stop(true);
 
         // reset element
         element.style.width = "";

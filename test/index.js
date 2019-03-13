@@ -1,5 +1,6 @@
 var options2 = {
-  continuous: true
+  continuous: true,
+  auto: 1000
 };
 
 var options3 = {

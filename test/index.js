@@ -24,10 +24,12 @@ var options4 = {
   }
 }
 
-window.mySwiper1 = new lightSwiper(document.querySelector('#siwper-1'))
+window.mySwiper1 = new lightSwiper(document.querySelector('#siwper-1'), { continuous: true })
 window.mySwiper2 = new lightSwiper(document.querySelector('#siwper-2'), options2)
 window.mySwiper3 = new lightSwiper(document.querySelector('#siwper-3'), options3)
 window.mySwiper4 = new lightSwiper(document.querySelector('#siwper-4'), options4)
+
+document.querySelector('.pic-hook').addEventListener('click', () => test(4))
 
 function next() {
   mySwiper1.next()
@@ -35,4 +37,8 @@ function next() {
 
 function prev() {
   mySwiper1.prev()
+}
+
+function test(n) {
+  console.log(n);
 }

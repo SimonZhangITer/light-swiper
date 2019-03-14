@@ -109,25 +109,36 @@
       var len = element.children.length;
       // 克隆节点并添加点击事件
       if (len == 2 || len == 3) {
-        for (let i = 0; i < len; i++) {
-          let _el = element.children[i]
-          let _cloneNode = _el.cloneNode(true)
-          _cloneNode.addEventListener('click',function(e) {
-            let nodeName = e.target.nodeName
-            let attributes = e.target.attributes
-
-            let query = nodeName
-            for(let i = 0; i< attributes.length;i++) {
-              let attr = attributes[i]
-              if (i>0) query += ','
-              query += `[${attr.nodeName}='${attr.nodeValue}']`
-            }
-
-            _el.querySelector(query).click()
-          }, false)
-          element.appendChild(_cloneNode);
+        for (var i = 0; i < len; i++) {
+          var _el = element.children[i]
+          var _cloneNode = _el.cloneNode(true)
+          !function (_el, _cloneNode) {
+            _cloneNode.addEventListener('click', function(e) {
+              var nodeName = e.target.nodeName
+              var attributes = e.target.attributes
+              var query = nodeName
+              for(var j = 0; j< attributes.length;j++) {
+                var attr = attributes[j]
+                if (j>0) query += ','
+                query += `[${attr.nodeName}='${attr.nodeValue}']`
+              }
+              if (!hasClickOnHtml(_el)) _el.querySelector(query).click()
+            }, false)
+            element.appendChild(_cloneNode);
+          }(_el, _cloneNode)
         }
       }
+    }
+
+    // 结构树中是否有存在中html中的onclick事件
+    function hasClickOnHtml(el) {
+      var flag = el.hasAttribute('onclick')
+      if (flag) return true
+      for(var i = 0; i < el.children.length; i++) {
+        flag = hasClickOnHtml(el.children[i])
+        if (flag) return true
+      }
+      return flag
     }
 
     function prev() {
